@@ -18,11 +18,10 @@ public class CarTester1 {
 		System.out.println("x구입일:" + x.getPurchaseDay());
 		
 		ExCar y;
-		y = car1;
+		//y = car1;
 		y = car2;
 		
 		System.out.println("y구입일:" + y.getPurchaseDay());
 		System.out.println("y의 총 주행 거리:" + y.getTotalMileage());
 	}
-
 }
